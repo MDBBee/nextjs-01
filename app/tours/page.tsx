@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 const url = 'https://www.course-api.com/react-tours-project';
 
-type Tour = {
+export type Tour = {
   id: string;
   name: string;
   info: string;
